@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Practice Test NG" parallel="tests" thread-count="2" >
+
+	<listeners>
+		<listner name="testNG.Listners" />
+	</listeners>
+	<parameter name="URL" value="https://rahulshettyacademy.com/" />
+	<parameter name="API/Keys" value="admin" />
+
+
+	<test name="Demo TestNG">
+		<classes>
+			<class name="testNG.Test1" />
+			<class name="testNG.Test_HomeLoan" />
+			<class name="testNG.Test_CarLoan" />
+		</classes>
+	</test>
+
+	<!--<test name="Car Loan">
+		<classes>
+			<class name="testNG.Test_CarLoan">
+					<methods>
+					<exclude name="MobileLoginCarLoan" />
+				</methods>
+					<methods>
+					<exclude name="Mobile.*" />
+				</methods>
+				<methods>
+					<include name="MobileLoginCarLoan" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>-->
+</suite>

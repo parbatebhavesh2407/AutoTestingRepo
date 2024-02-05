@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Practice Test NG" allow-return-values="true"
+	verbose="10">
+	<test name="Regression">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.Test1" />
+			<class name="testNG.Test_HomeLoan" />
+			<class name="testNG.Test_CarLoan" />
+
+		</classes>
+	</test>
+</suite>
