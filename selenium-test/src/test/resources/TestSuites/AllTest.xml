@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="AllTest">
+	<test name="PositiveTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.PositiveTests" />
+		</classes>
+	</test>
+
+	<test name="NegativeTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.NegativeTests" />
+		</classes>
+	</test>
+
+
+	<!-- Test -->
+</suite> <!-- Suite --> 
